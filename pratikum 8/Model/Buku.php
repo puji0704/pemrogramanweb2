@@ -1,7 +1,11 @@
 <?php
 
 class Buku{
+<<<<<<< HEAD
     protected $id; //+
+=======
+    protected $id;
+>>>>>>> 7261bb122a6ea0ae60903bef1aa010b39d3a80b1
     protected $judul ;
     protected $pengarang ;
     protected $penerbit ;
@@ -15,11 +19,20 @@ class Buku{
         $this->penerbit = $penerbit ;
         $this->tahun = $tahun ;
     }
+<<<<<<< HEAD
     public function setId($id){//+
         $this->id = $id ;
         
     }
     public function getId(){//+
+=======
+
+    public function setId($id){
+        $this->id = $id ;
+        
+    }
+    public function getId(){
+>>>>>>> 7261bb122a6ea0ae60903bef1aa010b39d3a80b1
         return $this->id;
     }
 

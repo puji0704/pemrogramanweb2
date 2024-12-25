@@ -31,6 +31,7 @@ class BukuController{
         header('location: http://localhost/index.php');
         exit;
     }
+<<<<<<< HEAD
     public function edit(){
         //index.php/edit?id=5
         // menangkap nilai query string id dari view
@@ -52,3 +53,6 @@ class BukuController{
         }
     }
 }
+=======
+}
+>>>>>>> 7261bb122a6ea0ae60903bef1aa010b39d3a80b1
